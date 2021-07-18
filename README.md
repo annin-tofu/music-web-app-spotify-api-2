@@ -17,3 +17,8 @@ Then the whole project starts up!!!!
 ## app uses express.node in backend, react in frontend.
 
 # music-web-app-spotify-api-2
+
+# How to deploy
+
+How to Create a React App with a Node Backend: The Complete Guide
+https://www.freecodecamp.org/news/how-to-create-a-react-app-with-a-node-backend-the-complete-guide/
