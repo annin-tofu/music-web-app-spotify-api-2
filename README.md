@@ -1,5 +1,3 @@
-# spotify-clean-complete
-
 ## To start this app
 
 since this project has Client and Server folders separately,
@@ -17,3 +15,5 @@ to start up Client side(localhost://3001)
 Then the whole project starts up!!!!
 
 ## app uses express.node in backend, react in frontend.
+
+# music-web-app-spotify-api-2
