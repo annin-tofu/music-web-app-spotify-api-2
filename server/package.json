@@ -2,14 +2,14 @@
   "name": "server",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "devStart": "nodemon server.js",
-    "start": "node server.js",
+    "devStart": "nodemon index.js",
+    "start": "node server/index.js",
     "build": "cd client && npm install && npm run build"
   },
   "engines": {
-    "node": "your-node-version"
+    "node": "14.17.1"
   },
   "keywords": [],
   "author": "",

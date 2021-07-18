@@ -6,6 +6,7 @@ const express = require("express");
 const cors = require("cors");
 const bodyParser = require("body-parser");
 const lyricsFinder = require("lyrics-finder");
+const path = require("path");
 
 const SpotifyWebApi = require("spotify-web-api-node");
 
@@ -79,6 +80,8 @@ app.get("/lyrics", async (req, res) => {
 });
 
 // All other GET requests not handled before will return our React app
+
+// What is "__dirname"? => it is a variable that means the path of current directory.https://qiita.com/mzmz__02/items/c132989cd0d0c2068832
 app.get("*", (req, res) => {
   res.sendFile(path.resolve(__dirname, "../client/build", "index.html"));
 });
